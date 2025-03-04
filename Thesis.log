@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.3)  4 MAR 2025 22:30
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.3)  4 MAR 2025 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1415,12 +1415,17 @@ Overfull \hbox (2.91278pt too wide) in paragraph at lines 268--269
 [8]
 File: Img/High-bit_Zeroing_Elimination_Optimization.pdf Graphic file (type pdf)
 <use Img/High-bit_Zeroing_Elimination_Optimization.pdf>
-) (./Thesis.bbl [9]
+ [9]
+File: Img/spec2006_int.png Graphic file (type bmp)
+<Img/spec2006_int.png>
+File: Img/spec2006_fp.png Graphic file (type bmp)
+<Img/spec2006_fp.png>
+ [10]) (./Thesis.bbl
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
 (Font)              scaled to size 7.00075pt on input line 20.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 20.
-
+ [11]
 Underfull \hbox (badness 6825) in paragraph at lines 101--106
 []\TU/entextrm/m/n/10.53937 Inc. A.  About the rosetta translation environment [J/OL].  Apple Developer
  []
@@ -1430,21 +1435,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--106
 \TU/entextrm/m/n/10.53937 Documentation, 2023.  [][]$[][][][][] [] [] [] [][][][][][][][][] [] [][][][][] [] [][][] [] [][][][][][][][][][][][][] [] [][][][][][][][][][][][][][] []
  []
 
-[10]) [11] (./Thesis.aux)
+) [12] (./Thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 90238C2C0EE5340F243E1DDF25406615;1203.
+(rerunfilecheck)             Checksum: 3EBA226552B0F854CE9169B057789FA5;1443.
  ) 
 Here is how much of TeX's memory you used:
- 37928 strings out of 474773
- 781580 string characters out of 5757725
+ 37977 strings out of 474773
+ 783183 string characters out of 5757725
  1945839 words of memory out of 5000000
- 59427 multiletter control sequences out of 15000+600000
+ 59475 multiletter control sequences out of 15000+600000
  571543 words of font info for 165 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  118i,11n,130p,1352b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Thesis.pdf (13 pages).
+Output written on Thesis.pdf (14 pages).

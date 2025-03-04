@@ -276,6 +276,36 @@ ARM架构中只有部分的运算和逻辑指令会影响FPSCR寄存器，移位
     \label{fig:High-bit_Zeroing_Elimination_Optimization}
 \end{figure}
 
+\subsection{存在的问题}
+翻译器LATA的性能与完备性仍待提升：当前LATA在执行效率方面未能展现明显优势，需进一步优化指令翻译策略，提升JIT代码生成质量，并降低运行时开销。此外，应结合龙芯平台的硬件架构特点进行针对性优化，以提升整体翻译效率。LATA的软件适配范围有限，需扩展对主流应用及龙芯生态软件的兼容性，提高软件运行的稳定性。
+
+随机指令测试框架存在较多的局限性：
+首先，我们假设所有重要状态都位于信号处理程序可访问的寄存器中。这在大多数情况下成立，但是无法测试如 ldrexd/strexd 这样复杂的指令;
+其次，生成器相对简单，只是交替生成指令并检查寄存器状态。因此，分支、加载或存储指令无法通过这种方式进行检查（这主要是生成器的限制，而非测试框架本身的缺陷）；
+同时，框架错误捕捉范围有限，仅能捕捉解码或指令实现中的明显错误，而不会检测到诸如模型代码生成器中对指令过于激进的重新排序等问题；
+而且，测试范围有限，只能测试用户态可见的指令，而无法测试仅对特权代码可见的指令。
+
+\subsection{阶段性成果}
+LATA-V正确运行SPEC2006全部子项，其中定点子项效率是原生的40\%，浮点子项效率是原生的45\%；分别是同平台QEMU的2倍，7倍。
+\begin{figure}[!htbp]
+    \centering
+    \begin{subfigure}[b]{1.0\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{spec2006_int}
+        \caption{}
+        \label{fig:oaspl_a}
+    \end{subfigure}
+
+    \vspace{1em} % 控制上下间距
+
+    \begin{subfigure}[b]{1.0\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{spec2006_fp}
+        \caption{}
+        \label{fig:oaspl_b}
+    \end{subfigure}
+\end{figure}
+
 \section{下一步工作计划和内容，预计答辩时间}
 \subsection*{2024 年 2 月-2024 年 3 月}
 \begin{itemize}[left=0pt]

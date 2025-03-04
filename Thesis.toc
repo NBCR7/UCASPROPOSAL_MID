@@ -7,5 +7,7 @@
 \contentsline {subsection}{\numberline {1.3}LATA-V的性能优化}{6}{subsection.1.3}%
 \contentsline {subsubsection}{\numberline {1.3.1}复用X86-LBT优化}{6}{subsubsection.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.2}高位清零消除优化}{8}{subsubsection.1.3.2}%
-\contentsline {section}{\numberline {二}下一步工作计划和内容，预计答辩时间}{9}{section.2}%
-\contentsline {section}{\numberline {三}已取得科研成果列表（已发表、待发表学术论文、专利等）}{10}{section.3}%
+\contentsline {subsection}{\numberline {1.4}存在的问题}{9}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}阶段性成果}{10}{subsection.1.5}%
+\contentsline {section}{\numberline {二}下一步工作计划和内容，预计答辩时间}{10}{section.2}%
+\contentsline {section}{\numberline {三}已取得科研成果列表（已发表、待发表学术论文、专利等）}{11}{section.3}%
