@@ -279,16 +279,15 @@ ARM架构中只有部分的运算和逻辑指令会影响FPSCR寄存器，移位
 \section{下一步工作计划和内容，预计答辩时间}
 \subsection*{2024 年 2 月-2024 年 3 月}
 \begin{itemize}[left=0pt]
-    \item 完善程序静态特征提取的 PASS，目标是提取到 55 个相关的静态特征；
-    \item 以 Csmith 生成 10000 个随机 C 语言程序，以迭代优化得到的优化配置选项进行数据标注，配置程序静态特征提取，构建训练数据集；
-    \item 完成人工神经网络的训练，集成到 GCC 编译器插件中；
-    \item 进行机器学习模型化预测部分的有效性验证。
+    \item 优化LATA-V的指令翻译和代码结构；
+    \item 完善LATA-V的瓶颈分析和性能优化；
+    \item 提升随机指令测试框架的测试覆盖率，减少调试框架的调试时长。
 \end{itemize}
 
 \subsection*{2024 年 3 月-2024 年 4 月}
 \begin{itemize}[left=0pt]
-    \item 完善整体架构集成化测试和有效性验证；
-    \item 设计参数相关实验收集更细粒度的实验数据；
+    \item 完善LATA-V整体框架，提升LATA-V在负载SPEC CPU 2006上的效率；
+    \item 完善随机指令测试框架和调试框架；
     \item 撰写毕业论文。
 \end{itemize}
 
